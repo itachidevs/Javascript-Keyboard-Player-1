@@ -11,7 +11,7 @@ body {
 .container {
     height: 100vh;
     width: 100vw;
-    background-image: url('assets/band.jpg');
+    background-image: url('assets/bang.jpg');
     background-size: cover;
     display: flex;
     flex-direction: row;
