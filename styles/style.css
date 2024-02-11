@@ -1,7 +1,13 @@
 body {
     margin: 0px;
 }
-
+.heading{
+    font-size: 3-px;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    text-align: center;
+}
 .container {
     height: 100vh;
     width: 100vw;
