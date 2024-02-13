@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("/assets/drums-landscape.jpg");
+    background-image: url("assets/drums-landscape.jpg");
     background-size: cover;
     
 }
@@ -68,7 +68,7 @@ kbd{
 @media screen and (max-width:576px){
 body{
     background-repeat: no-repeat;
-    background-image: url('/assets/drums.jpg');
+    background-image: url('assets/drums.jpg');
     background-size: cover;
     background-position: center;
 }
