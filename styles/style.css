@@ -1,7 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("assets/drums-landscape.jpg");
-    background-size: cover;
+    
     
 }
 .heading{
@@ -13,7 +12,8 @@ body {
 
 }
 .container {
-   
+   background-image: url("assets/drums-landscape.jpg");
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     
