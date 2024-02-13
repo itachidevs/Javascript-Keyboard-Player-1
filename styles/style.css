@@ -1,5 +1,8 @@
 body {
     margin: 0px;
+    background-image: url("/assets/drums-landscape.jpg");
+    background-size: cover;
+    
 }
 .heading{
     font-size: 3-px;
@@ -7,40 +10,49 @@ body {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 3px;
     text-align: center;
+
 }
 .container {
+   
     height: 100vh;
     width: 100vw;
-    background-image: url('assets/bang.jpg');
-    background-size: cover;
+    
     display: flex;
     flex-direction: row;
   
     justify-content: space-around;
  align-items: center;
     flex-wrap: wrap;
-    background-color: brown;
-
+    /* background-color: brown; */
 
 }
 .key{
-    background-color: #000080;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.1);
+    z-index: 2;
+    width: 100px;
+    height: 100px;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px  #FFFAFA;
+   text-align: center;
+}
+kbd{
     color:whitesmoke;
-    box-shadow: 5px 10px 10px  #000;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
+  
+
 }
 .played{
-    background-color: #000000;
+    background-color:transparent;
     color: #FFFAFA;
     border-radius: 10px;
    border-style: groove;
    border-color: beige;
    transition: all 0.2s; 
-   transform: scale(2.2);
+   transform: scale(1.6);
    border-width: 2px;
 }
 @media screen and (max-width:768px){
@@ -51,7 +63,26 @@ body {
        flex-direction:row ;
       justify-content: start;
       flex-wrap: wrap;
-   
-
+       }
+}
+@media screen and (max-width:576px){
+body{
+    background-repeat: no-repeat;
+    background-image: url('/assets/drums.jpg');
+    background-size: cover;
+    background-position: center;
+}
+    .container{
+        flex-direction: row;
+     justify-content: space-around;
+        padding: 40px;
+    }
+    .key{
+        max-width: 20px;
+        max-height: 20px;
+        box-shadow: 5px 5px 5px #000000;
+    }
+    kbd{
+        font-size: 15px;
     }
 }
