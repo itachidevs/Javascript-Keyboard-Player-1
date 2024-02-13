@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    
+    background-color: brown;
     
 }
 .heading{
@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
  align-items: center;
     flex-wrap: wrap;
-    background-color: brown;
+    
 
 }
 .key{
