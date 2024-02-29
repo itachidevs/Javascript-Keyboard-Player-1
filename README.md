@@ -1,3 +1,4 @@
+
 <h1 style="color:white; font-size:30px;text-align:center;">JavaScript 30 Challenge✨</h1>
 
 <h2 style="color:white;text-align:center;">Thank you for visiting my JavaScript 30 Challenge repository! 🚀</h2>
@@ -7,6 +8,7 @@
 <b>Here is my project <a target="_blank" href="https://babybhavani.github.io/Javascript-Keyboard-Player-1/">Click here</a></b>
 <b>You can find files <a href="https://github.com/babybhavani/Javascript-Keyboard-Player-1.git" target="_blank">HERE</a></b>
 <h3>HTML</h3>
+
 <ul type="circle">
 <li>I started by creating an HTML file, adding a container element, and assigning the class name container. Every key on the drum set is contained in this piece.</li>
 <li>Within the element with the class name container, I now took another container element. A kbd tag that included an alphabet or key was inserted inside this container. To access the alphabet's keycode, I utilized a data- attribute as a data-key and provided the alphabet's ASCII value.</li>
@@ -19,6 +21,14 @@
   <li>Perhaps at this point, you're more curious in how I implemented the transition effects? <br>
   Thus, transitions let you to define how an element switches between states. Different states can be described using pseudo-classes like:hover and:active, or they can be changed dynamically with JavaScript.(br> Why then is it related? I used a class selector with name played in my project, and I included a 0.2-second transition to it. This class will thus be assigned to the child element when the key is tapped on the keyboard.It will be explained in the javascript section.</li>
 </ul>
+
+
+
+![JavaScript Music - Google Chrome 29-02-2024 23_24_53](https://github.com/babybhavani/Javascript-Keyboard-Player-1/assets/152834101/062fdf88-d0d1-4f34-a329-4bbb33740915)
+
+
+
+
 <h3 >Most Important Phase ✨JAVASCRIPT✨</h3>
 <ul type="circle">
 <li>I made simply a function with name <q>PlaySound()</q> and implemented it. How??.. Let's look at it </li>
@@ -46,6 +56,7 @@
 <li>As audio file has data-key atrribute, the audio fill can be accessed. How?? When the user cliks on the key of the keyboard, the event will be raised and the function will be called.</li>
 <li>In the fisrt line of the function, I've accessed the audio file which has the data-key as the ASCII value of the key that user presses.</li>
 <li>Now,Why I used an if condition? If the user click the key that is other  than alphabetical key,the audio should not play. To evaluate ot to solve this problem I used the if condition. </li>
+
 <li>Next line,is when you presses the same key for one or more times, It will not be played as many as you pressed. It will be played only once. So, If the audio current time is 0 and every time the user presses the same key the event raised and the function will be callled, everytime the function is called, the current time of the audio will be set to 0. </li>
 <li>Moving Forward....Before Moving Forward, if you come this far, thanks for reading...</li>
 <li>Now, the play() method will play the audio file.</li>
